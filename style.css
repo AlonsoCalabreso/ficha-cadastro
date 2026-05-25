@@ -40,6 +40,7 @@ body {
     background-color: #FFF6D6;
     border: 3px solid #FFB303;
     flex-direction: column;
+    border-left: 13px solid #d4621160;
 }
 
 .documentosnecessarios h2{
@@ -75,4 +76,34 @@ body {
 
 .documentosnecessarios img{
     width: 100px;
+}
+
+.dados-pessoais{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.dados-pessoais h2{
+    color: #002A66;
+}
+
+.informacao-funcionario {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.informacao-funcionario p{
+    background-color: #EDF0F5;
+    line-height: 3;
+    border-radius: 5px;
+    border-width: 5px;
+    border: 2px solid #E6E6E6;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
 }

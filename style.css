@@ -111,6 +111,8 @@ body {
 
 .pequeno{
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .medio{
@@ -127,10 +129,22 @@ body {
 
 .extra{
     flex: 6;
+    display: flex;
+    flex-direction: column;
 }
 
 .linha{
     display: flex;
     width: 950px;
     gap: 25px;
+    margin-top: 10px;
+}
+
+input {
+    height: 10px;
+    border: solid 2px #000;
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: none;
+    padding: 6px;
 }

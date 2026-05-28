@@ -46,9 +46,9 @@
             <h2>1.Dados Pessoais</h2>
             <p>Informações básicas do funcionário</p>
         </div>
+        
         <div class="linha">
-
-        <div class="grande">
+            <div class="grande">
         <label>Nome Completo</label>
         <input type="text">
         </div>
@@ -60,12 +60,70 @@
 
         <div class="medio">
             <label>Sexo</label>
-            <input type="text">
+            <select id="Sexo">
+            <option value="" disabled selected hidden->Selecione</option>
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            </select>
+        </div>
         </div>
 
+        <div class="linha">
+
+            <div class="pequeno">
+                <label>Nacionalidade</label>
+                <input type="text">
+            </div>
+
+            <div class="pequeno">
+                <label>Data de nascimento</label>
+                <input type="date">
+            </div>
+
+            <div class="pequeno">
+                <label>Local de nascimento</label>
+                <input type="text">
+            </div>
+
+            <div class="pequeno">
+                <label>UF</label>
+                <select id="UF">
+    <option value="" disabled selected hidden>Selecione</option>
+    <option value="">AC</option>
+    <option value="">AL</option>
+    <option value="">AP</option>
+    <option value="">AM</option>
+    <option value="">BA</option>
+    <option value="">CE</option>
+    <option value="">DF</option>
+    <option value="">ES</option>
+    <option value="">GO</option>
+    <option value="">MA</option>
+    <option value="">MT</option>
+    <option value="">MS</option>
+    <option value="">MG</option>
+    <option value="">PA</option>
+    <option value="">PB</option>
+    <option value="">PR</option>
+    <option value="">PE</option>
+    <option value="">PI</option>
+    <option value="">RJ</option>
+    <option value="">RN</option>
+    <option value="">RS</option>
+    <option value="">RO</option>
+    <option value="">RR</option>
+    <option value="">SC</option>
+    <option value="">SP</option>
+    <option value="">SE</option>
+    <option value="">TO</option>
+    </select>
+            </div>
+
         </div>
+
     </div>
-    </div>
+</div>
+</div>
     
 
 </body>
